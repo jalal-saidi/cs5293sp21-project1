@@ -1,11 +1,11 @@
-SAID JALAL SAIDI
+Said Jalal Saidi
 
-HOW TO RUN: IT REQUIRES PASSING A VALID INPUT EXTENSION SUCH AS ".txt". ALSO, IT REQURIES THE TYPES OF REDACTION NEEDED, SUCH AS PHONES, EMAILS, NAMES AND GENDERS. MOREOVER, WE REDACT CONCEPTS RELATED TO PRISONS SUCH AS JAIL, INMATES AND ETC. FINALLY, IT REQUIRES THE OUTPUT DIRECTORY IN WHICH THE REDACTED RESULTS ARE WRITTEN. FOR EXAMPLE THE COMMAND LINE ARGUMENT IS USED: pipenv run python project1/launcher.py --input '.txt' --names  --phones  --emails  --concept 'kids' --output 'files/' --stats 'stdout'
+How to run: it requires passing a valid input extension such as ".Txt". Also, it requires the types of redaction needed, such as phones, emails, names, and genders. Moreover, we redact concepts related to prisons such as jail, inmates and etc. Finally, it requires the output directory in which the redacted results are written. For example, the command line argument is used: pipenv run python project1/launcher.Py --input '.Txt' --names  --phones  --emails  --concept 'kids' --output 'files/' --stats 'stdout'
 
-HOW TO TEST: IT REQUIRES TO USE "pipenv run pytest" AT THE ROOT LEVEL OF THE PROJECT
+How to test: it requires using "Pipenv run pytest" at the root level of the project
 
-LIBRARIES, DEPENDENCIES, AND VIRTUAL ENVIRONMENT: FIRST, A VIRTUAL ENVIRONMENT IS CREATED USING PYENV, WITH 3.8.6 PYTHON VERSION. SECOND, PROJECT1 MODULE IS INSTALLED IN THIS VIRTUAL ENV. THIRD, REQUIRED LIBRARIES TO RUN AND TEST IS MODULE ARE INSTALLED NAMELY "pipenv" and "pytest". FOURTH, REQUIRED LIBRARIES FOR THE PROGRAM FUNCTIONALITIES ARE INSTALLED SUCH AS NLTK, WHICH IS NECESSARY FOR NATURAL LANGUAGE PROCESSING. FIFTH, OTHER LIBRARIES SUCH AS  "re" FOR REGEX SEARCH, "os" FOR WALKING THROUGH DIRECTORIES AND FILES, AND "sys" FOR WRITING TO STANDARD OUTPUT IS USED.
+Libraries, dependencies, and virtual environment: first, a virtual environment is created using pyenv, with 3.8.6 python version. Second, project1 module is installed in this virtual env. Third, the required libraries to run and the test is module is installed namely "Pipenv" and "Pytest". Fourth, required libraries for the program functionalities are installed such as nltk, which is necessary for natural language processing. Fifth, other libraries such as  "Re" for regex search, "Os" for walking through directories and files, and "Sys" for writing to standard output are used.
 
-ASSUMPTIONS: THE MAIN PYTHON FILES ARE "launcher.py", WHICH INCLUDES THE STARTER FUNCTION. ALSO, "project1_main.py" WHICH INCLUDES IMPORTANT FUNCTIONALITIES SUCH AS READING RAW DATA, REDACTING NAMES, PHONES, EMAILS, GENDERS, AND CONCEPTS. THE CONCEPT IS RELATED TO PRISON. WE USE NLTK FOR TOKENIZATION, PART OF SPEECH TAGGING, AND LEMMATAZATION. 
+Assumptions: the main python files are "Launcher.Py", which includes the starter function. Also, "Project1_main.Py" which includes important functionalities such as reading raw data, and redacting names, phones, emails, genders, and concepts. The concept is related to prison. We use nltk for tokenization, part of speech tagging, and lemmatization. 
 
-TEST CASES: TEST CASES ARE INCLUDED IN "project1_test.py". TWO TEST CASES ARE WRITTEN; test_redact_phones, which tests redacting phones. test_redact_emails, which test redacting emails.
+Test cases: test cases are included in "Project1_test.Py". Two test cases are written; test_redact_phones, which tests redacting phones. Test_redact_emails, which tests redacting emails.
