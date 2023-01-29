@@ -4,7 +4,7 @@ How to run: it requires passing a valid input extension such as ".Txt". Also, it
 
 How to test: it requires using "Pipenv run pytest" at the root level of the project
 
-Libraries, dependencies, and virtual environment: first, a virtual environment is created using pyenv, with 3.8.6 python version. Second, project1 module is installed in this virtual env. Third, the required libraries to run and the test is module is installed namely "Pipenv" and "Pytest". Fourth, required libraries for the program functionalities are installed such as nltk, which is necessary for natural language processing. Fifth, other libraries such as  "Re" for regex search, "Os" for walking through directories and files, and "Sys" for writing to standard output are used.
+Libraries, dependencies, and virtual environment: first, a virtual environment is created using pyenv, with 3.8.6 python version. Second, project1 module is installed in this virtual env. Third, the required libraries to run and the test is module is installed namely "Pipenv" and "Pytest". Fourth, required libraries for the program functionalities are installed such as nltk, which is necessary for natural language processing. Fifth, other libraries such as  "Re" for regex search, "OS" for walking through directories and files, and "Sys" for writing to standard output are used.
 
 Assumptions: the main python files are "Launcher.Py", which includes the starter function. Also, "Project1_main.Py" which includes important functionalities such as reading raw data, and redacting names, phones, emails, genders, and concepts. The concept is related to prison. We use nltk for tokenization, part of speech tagging, and lemmatization. 
 
